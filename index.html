@@ -7,10 +7,16 @@
     <h1>My Stastic Website</h1>
     <p>
       Hello, I'm online, and everyone can see me!
-      <a href="#" onclick="toggle_visibility('foo');">Click here to toggle visibility of element #foo</a>
-        <div id="foo">This is f<a href="#" onclick="toggle_visibility('foo');">oo
-        </a><div id="f0oo">This is foo
-        </div>
+      <a href="#" onclick="toggle_visibility('foo');">
+        Click here to toggle visibility of element #foo
+      </a>
+        <div id="foo">
+          <a href="#" onclick="toggle_visibility('f0oo');">
+            This is foo
+          </a>
+          <div id="f0oo">
+            This is f0oo
+          </div>
         </div>
     </p>
   </body>
